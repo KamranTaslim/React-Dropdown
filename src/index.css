@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.dropbtn {
+  background-color: white;
+  width: 180px;
+  color: #353535;
+  padding: 10px 16px;
+  font-size: 22px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+}
+.dropbtn img {
+  width: 25px;
+  height: 25px;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7bd7e2;
+  width: 40%;
+
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 80px;
+  border-radius: 5px;
+}
+.dropdown h1,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f1f1f1;
+  width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  width: 100%;
+
+
+}
+
+.dropdown-content button:hover {
+  background-color: #e7e7e7;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(207, 207, 207);
+  color: black;
+}
